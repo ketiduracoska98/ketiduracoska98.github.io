@@ -1,0 +1,224 @@
+body {
+    margin: auto;
+    width: 1280px;
+}
+
+.menu {
+    margin-top: 100px;
+    margin-bottom: 130px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.menu-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E1E;
+    font-size: 11px;
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+.header {
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E1E;
+    font-size: 46px;
+    text-align: center;
+    line-height: 57px;
+    width: 780px;
+
+}
+
+.sub-header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination {
+    margin-right: 20px;
+    color: #9B9B9B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.added {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #9B9B9B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.author {
+    margin-right: 20px;
+    color: #1E1E1E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.date {
+    margin-left: 20px;
+    color: #9B9B9B;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.edit-delete {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.edit-item {
+    margin-right: 10px;
+    color: #1E1E1E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.delete-item {
+    color: #1E1E1E;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.image {
+    height: 720px;
+    margin-bottom: 80px;
+}
+
+.paragraph {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.par-text {
+    color: #1E1E1E;
+    font-family: 'Cardo', serif;
+    font-size: 16px;
+    line-height: 30px;
+    width: 780px;
+}
+
+.footer {
+    margin-top: 25px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    font-family: 'Montserrat', sans-serif;
+    color: #1E1E1E;
+    font-size: 34px;
+    text-decoration: none;
+    line-height: 42px;
+}
+
+.button {
+    display: flex;
+    justify-content: right
+}
+
+.button-item {
+    background: none;
+    border: 1px solid #9B9B9B;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    height: 60px;
+    width: 300px;
+}
+
+#modal-box {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border-style: groove;
+    width: 1000px;
+    height: 750px;
+    background: white;
+}
+
+.modal__margines {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.add {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    text-align: center;
+    line-height: 57px;
+}
+
+
+.inputs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.new-data {
+    font-family: 'Cardo', serif;
+    font-size: 18px;
+    width: 400px;
+    height: 35px;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.content {
+    font-family: 'Cardo', serif;
+    font-size: 18px;
+    border: 1px solid #9b9b9b;
+    border-radius: 5px;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+
+.modal-buttons {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.save {
+    background: #FFE3E3;
+    border: 1px solid #9B9B9B;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    height: 60px;
+    width: 300px;
+}
